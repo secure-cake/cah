@@ -18,5 +18,6 @@ Invoke-WebRequest -Uri https://artifacts.elastic.co/downloads/beats/elastic-agen
 Expand-Archive .\elastic-agent-9.3.3+build202604082258-windows-x86_64.zip -DestinationPath .
 cd elastic-agent-9.3.3+build202604082258-windows-x86_64
 .\elastic-agent.exe install --url=https://a9d10a058323477eb93caf2446a4a815.fleet.us-central1.gcp.cloud.es.io:443 --enrollment-token=WFFwTHJKMEJuV2h4Q2lZWkpLUUk6V3ZRSFBHcGtwYWJBVFhPVzJXX2pVUQ==
+
 ```
 
